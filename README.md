@@ -16,5 +16,9 @@ node的项目，axios请求
 获取验证码测试链接：http://202.61.134.108:3000/sendCode/?mobile=这里输入你的手机号  
   
 获取流量测试链接：http://202.61.134.108:3000/codeLogin/?mobile=手机号&password=验证码  
+## 返回示例  
+{"code":200,  
+"msg":"您今天已经签到啦，今日已观看过广告，您已经领过",  
+"cookies":"这里是可以用来领取流量的cookid"}  
   
 获取流量测试链接：http://202.61.134.108:3000/login/?mobile=手机号&password=密码
